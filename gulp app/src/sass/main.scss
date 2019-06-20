@@ -1,0 +1,36 @@
+@import "./components/buttons";
+@import "./components/cards";
+@import "./layout/mainPage";
+@import "./abstracts/maps";
+@import "./abstracts/placeholders";
+
+// $colors-list-name: green,yellow,yellow,pink,brown; 
+
+
+/* DRY - don't repeat yourself */
+/* BEM naming conventions*/
+
+
+// .foo{ 
+//     background-color: white;
+//     border-radius: 10px;
+//     padding: 10px
+//   } 
+  
+
+// .foo{
+//     // content: map-keys($map1);
+//     // content: map-values($map1 );
+//     // @if map-has-key($map1 ,'value1'){
+//     //     content: true;
+//     // }
+//     @each $color-name in $colors-list-name{ 
+//         .foo-#{$color-name}
+//         {
+//             background-color: $color-name
+//         }
+//     }
+
+//     // content: map-has-key($map1, 'value1');
+//     // content: map-get($map1, 'keyTwo' );
+// }

@@ -1,0 +1,17 @@
+@mixin border($weight, $style, $color) {
+    border: $weight $style $color ; 
+}
+@mixin padding($top, $right, $bottom, $left) {
+    padding: $top $right $bottom $left;
+}
+@mixin margin($top, $right, $bottom, $left){
+    margin: $top $right $bottom $left;
+}
+@mixin dropShadow($x, $y, $blur, $radius){
+    filter: drop-shadow($x $y $blur $radius);
+}
+@mixin large{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}

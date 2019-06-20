@@ -1,0 +1,11 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+html,body{
+    width:100%;
+}
+body{
+    position: relative;
+    left:50%;
+    background: $bgColor;
+    @include margin(250px, 0px, 0px, -90px);
+}

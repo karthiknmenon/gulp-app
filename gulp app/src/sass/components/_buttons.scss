@@ -1,0 +1,36 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixin";
+@import "../abstracts/animations";
+@import "../abstracts/placeholders";
+button
+{
+    @include padding(20px,20px,20px,20px);
+    text-align: center;
+    @include border(2px,solid,rgb(15, 104, 3));
+    background: $btnColor;
+    outline: none;
+    color: $textColor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    &:hover{
+        background: $btnOnHover;
+        @include dropShadow(5px, 5px, 5px, black);
+        animation-name: move;
+        animation-duration: 250ms;
+        animation-timing-function: ease-in;
+    }
+    &:focus{
+        background: $btnOnFocus;
+    }
+    &:not{
+        background: $btnColor;
+    }
+}
+.btn-danger
+{
+    @extend %large;
+    background-color:red;
+}
+.btn-primary{
+    @extend %large;
+}
