@@ -1,0 +1,9 @@
+// @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+$fontFamily: 'Arial';
+$primaryColor: rgb(39, 39, 128);
+$bgColor: rgb(255, 240, 240); 
+$btnColor: rgb(11, 80, 1);
+$btnOnHover: lighten($btnColor,10%);
+$btnOnFocus: darken($btnColor,8%);
+$textColor: white; 
+$fontSize: 2em !default;

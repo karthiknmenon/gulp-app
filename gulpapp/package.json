@@ -1,0 +1,32 @@
+{
+  "name": "gulpexapp",
+  "version": "1.0.0",
+  "description": "example app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-imagemin-fix": "^5.0.4",
+    "gulp-live-server": "0.0.31",
+    "gulp-postcss": "^8.0.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp-livereload": "^4.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+@import "../abstracts/mixin";
+.card{
+    @include large();
+}
+.card-deck
+{
+    @include large();
+}
